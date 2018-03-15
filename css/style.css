@@ -12,3 +12,20 @@ img.small-logo{
 .nav-item, .navbar-brand{
 text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 }
+.biglogo{
+    max-width: 10rem;
+    margin-top: 2rem;
+}
+#carouselExampleControls{
+    margin-top: 0;
+}
+#jumbotron-logo{
+    margin-bottom: 0;
+}
+@media (min-width: 768px){
+    .biglogo{
+        margin-top: 0;
+        margin-bottom: -3rem;
+    }
+
+}
