@@ -4,7 +4,8 @@
 }
 
 img.small-logo{
-    max-height: 55px;
+    max-height: 7rem;
+   
 }
 .carousel.slide{
     margin-top: 4rem;
@@ -22,6 +23,19 @@ text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
 #jumbotron-logo{
     margin-bottom: 0;
 }
+/* Footer */
+.fas-logos{
+    font-size: 2rem;
+}
+.fa{
+    color:rgb(68, 67, 67);
+}
+.fa:hover{
+    color:rgb(8, 8, 8);
+    transform: scale(1.1);
+}
+
+/* resvonsive jumbotron logo */
 @media (min-width: 768px){
     .biglogo{
         margin-top: 0;
