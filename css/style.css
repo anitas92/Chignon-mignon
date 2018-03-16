@@ -4,8 +4,11 @@
 }
 
 img.small-logo{
-    max-height: 3rem;
+    height: 3rem;
    
+}
+.logodown{
+    max-height: 7rem;
 }
 .carousel.slide{
     margin-top: 4rem;
