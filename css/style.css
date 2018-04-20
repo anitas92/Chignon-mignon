@@ -58,3 +58,13 @@ text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
     }
 
 }
+
+/* order page*/
+
+div.jumbCM{
+    
+    background: url(../pic/jumbCM.jpg);
+    background-size: contain;
+    margin-top: 4rem;
+    
+}
