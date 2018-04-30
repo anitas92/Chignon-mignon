@@ -24,9 +24,9 @@
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
      <a href="index.html"><img class="small-logo d-none d-lg-block" src="pic/iconup.png" alt="logo"></a>
       
-     <button type="button" class="flag-button d-md-none"><img src="pic/magyar.jpg" class="flag"></button>
-    <button type="button" class="flag-button d-md-none"><img src="pic/roman.jpg" class="flag"></button>
-    <button type="button" class="flag-button d-md-none"><img src="pic/angol.jpg" class="flag"></button>
+     <button type="button" class="btn btn-light d-md-none"><span>HU</span></button>
+    <button type="button" class="btn btn-light d-md-none"><span>EN</span></button>
+    <button type="button" class="btn btn-light d-md-none"><span>RO</span></button>
   
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,31 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item  mx-1">
-        <a class="nav-link" href="#">Termékek</a>
-      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Termékek
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+           
+            <a class="dropdown-item dropdown-item" href="#">Hátizsákok</a>
+            <a class="dropdown-item dropdown-item" href="#">Övtáskák</a>
+            <a class="dropdown-item dropdown-item" href="#">Dohánytartók</a>
+
+
+           <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li> -->
+            
+    
+          </div>
+        </li>
       <li class="nav-item mx-1">
         <a class="nav-link" href="#">Kollekciók</a>
       </li>
@@ -56,9 +78,9 @@
     
   </div>
   
-  <button type="button" class="flag-button d-none d-md-block"><img src="pic/magyar.jpg" class="flag"></button>
-  <button type="button" class="flag-button d-none d-md-block"><img src="pic/roman.jpg" class="flag"></button>
-  <button type="button" class="flag-button d-none d-md-block"><img src="pic/angol.jpg" class="flag"></button>
+  <button type="button" class="btn btn-light d-none d-md-block"><span>HU</span></button>
+  <button type="button" class="btn btn-light d-none d-md-block"><span>EN</span></button>
+  <button type="button" class="btn btn-light d-none d-md-block"><span>RO</span></button>
   
 </nav>
 <div id="jumbotron-logo" class="jumbotron jumbotron-fluid bg-light d-block d-lg-none">
@@ -98,20 +120,22 @@
   <div class="row">
     <div class="card-group my-2">
       <div class="card">
-        <img class="card-img-top" src="pic/nagy11.jpg" alt="Card image cap">
+        <img class="card-img-top" src="pic/ovtaska1.jpg" onmouseover="src='pic/ovtaska2.jpg'" onmouseout="src='pic/ovtaska1.jpg'"  alt="Card image cap">
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <button type="button" class="btn btn-primary">Let's see</button>
+        <h5 class="card-title">Övtáskák</h5>
+        <p class="card-text">Size when closed: 15 cm x 8 cm, size when opened: 15 cm x 23 cm.</p>
+        <p class="prise">XX RON</p>
+        <button type="button" class="btn btn-primary">Tovább</button>
       </div>
       
     </div>
     <div class="card">
-      <img class="card-img-top" src="pic/nagy22.jpg" alt="Card image cap">
+      <img class="card-img-top" src="pic/dohany2.jpg"  onmouseover="src='pic/dohany1.jpg'" onmouseout="src='pic/dohany2.jpg'"  alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <button type="button" class="btn btn-primary">Let's see</button>
+        <h5 class="card-title">Dohánytartók</h5>
+        <p class="card-text">Size when closed: 15 cm x 8 cm, size when opened: 15 cm x 23 cm.</p>
+        <p class="prise">70 RON</p>
+        <button type="button" class="btn btn-primary">Tovább</button>
       </div>
       
     </div>
@@ -120,36 +144,43 @@
 </div>
 
 <div class="container">
+  <h3 class="text-center mt-4">Hátizsákok</h3>
 <div class="card-group my-5">
   <div class="card">
-    <img class="card-img-top" src="pic/o14.3.jpg" alt="Card image cap">
+    <img class="card-img-top" src="pic/kereklaptop1.jpg" onmouseover="src='pic/kereklaptop2.jpg'" onmouseout="src='pic/kereklaptop1.jpg'"  alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title">Kerek Laptop Hátizsákok</h5>
+      <p class="card-text">A hátizsák méretei: nyitva: 34 cm x 67 cm x 10 cm; csukva 34 cm x 38 cm x 10 cm.</p>
+      <p class="prise">210 RON</p>
+      <button type="button" class="btn btn-primary">Tovább</button>
     </div>
     <!--<div class="card-footer">
       <small class="text-muted">Last updated 3 mins ago</small>
     </div>-->
   </div>
     <div class="card">
-      <img class="card-img-top" src="pic/o16.2.jpg" alt="Card image cap">
+      <img class="card-img-top" src="pic/kisroll1.jpg" onmouseover="src='pic/kisroll2.jpg'" onmouseout="src='pic/kisroll1.jpg'"  alt="Card image cap">
       <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title">Kis Rolltop Lapotop Hátizsákok</h5>
+      <p class="card-text">A hátizsák méretei: nyitva: 34 cm x 67 cm x 10 cm; csukva 34 cm x 38 cm x 10 cm.</p>
+      <p class="prise">220 RON</p>
+      <button type="button" class="btn btn-primary">Tovább</button>
     </div>
     
   </div>
   <div class="card">
-    <img class="card-img-top" src="pic/o16.3.jpg" alt="Card image cap">
+    <img class="card-img-top" src="pic/nagyroll1.jpg" onmouseover="src='pic/nagyroll2.jpg'" onmouseout="src='pic/nagyroll1.jpg'"  alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title">Nagy Rolltop Lapotop Hátizsákok</h5>
+      <p class="card-text">A hátizsák méretei: nyitva: 40 cm x 63 cm x 16 cm; csukva 40 cm x 41 cm x 16 cm.</p>
+      <p class="prise">240 RON</p>
+      <button type="button" class="btn btn-primary">Tovább</button>
     </div>
     
   </div>
 </div>
 </div>
-
+<!--
 <div class="container">
   <div class="row">
     <div class="card bg-dark text-white">
@@ -161,7 +192,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
     <footer class="py-2 bg-light">
       <div class="container">
@@ -200,6 +231,9 @@
         fg: '#eceeef',
         text: 'Thumbnail'
       });
+    </script>
+    <script type="text/javascript">
+
     </script>
   </body>
 </html>
